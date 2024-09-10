@@ -1,0 +1,36 @@
+body {
+    background-color: #FDF0D5 !important;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+.main{
+    width:1170px;
+    margin: 0 auto;
+}
+
+.main ul{
+    margin: auto;
+    padding: 20px 0 0;
+    list-style: none;
+    text-align: right:
+}
+
+.main ul li{
+    float: none;
+    display: inline-block;
+}
+
+.main ul li:nth-child(1){float: left;}
+.main ul li:nth-child(2){float: left;}
+.main ul li:nth-child(3){float: left;}
+.main ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-family: lucida console;
+    padding: 5px 20px;
+}
+
