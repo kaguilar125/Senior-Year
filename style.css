@@ -13,7 +13,7 @@ body {
     margin: auto;
     padding: 20px 0 0;
     list-style: none;
-    text-align: right:
+    text-align: right;
 }
 
 .main ul li{
@@ -25,6 +25,7 @@ body {
 .main ul li:nth-child(2){float: left;}
 .main ul li:nth-child(3){float: left;}
 .main ul li a{
+    color: whitesmoke;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -33,4 +34,33 @@ body {
     font-family: lucida console;
     padding: 5px 20px;
 }
+
+.main ul li a:hover{transition: 1s;
+background-color: white;
+border-radius: 10px;
+color: black;
+}
+#navbar{
+    width: 100%;
+    position: absolute;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(0,0);
+    content: '';
+    transition: 1s;
+    border-radius: 50px;
+    margin-left: -50px;
+}
+
+.logo:hover{
+    transform: scale(-1.01);
+    transition: 1s;
+}
+
 
