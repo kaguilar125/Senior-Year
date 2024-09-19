@@ -1,5 +1,6 @@
 var swiper = new Swiper(".home", {
-  spaceBetween: 30,
+  slidesPerView: 1, // Show only one slide at a time
+  spaceBetween: 0, // No space between slides
   centeredSlides: true,
   autoplay: {
     delay: 2500,
